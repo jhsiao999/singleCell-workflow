@@ -1,0 +1,67 @@
+---
+title: Tools that we may use
+output:
+  html_document:
+    toc: false
+---
+
+**Last updated:** `r Sys.Date()`
+
+**Code version:** `r workflowr::extract_commit(".", 1)$sha1`
+
+---
+
+
+0. General purposes
+
+* `bioawk`: [bioawk](https://github.com/lh3/bioawk) is an extention of `awk` with additional support for biological data.
+* `snakemake`: [snakemake]()
+
+
+1. Generate index genomes for mapping sequence reads.
+
+`subread 1.9.4`: [Subread](http://subread.sourceforge.net/) 
+
+* Endogeneous
+* Worm 
+* Fly
+
+
+2. Quality control and trimming:
+
+* QC sequence reads
+
+`fastqc 0.11.5`: [fastqc]()
+
+* Extract UMIs
+
+`umitools`: [umitools](https://github.com/brwnj/umitools/releases/tag/v2.1.1)
+
+
+* Trimming 3' end of reads
+
+`sickle`: [sickle](https://github.com/najoshi/sickle)
+
+
+3. Map reads to the index genomes.
+
+* Mapping reads
+* Sort, index and combine bam files
+
+4. Generate gene-level read count and molecule-count.
+
+* Count reads per gene
+* Count molecules per gene
+
+
+## Tools
+
+(Need to confirm the versions)
+
+* umitools
+* sickel version 1.33
+* Subread version 1.5.0-p1
+* samtools version 0.1.18-dev
+* UMI-tools (versione0ade5d)
+
+
