@@ -5,15 +5,27 @@ output:
     toc: false
 ---
 
-What license are you using for your code? See [choosealicense.com][choose] for
-help deciding. And don't forget to update the file `LICENSE` in the root of your
-Git repo.
+**Last updated:** `r Sys.Date()`
 
-What license are you using for the written content on your site? It is
-traditional to choose a [Creative Commons][cc] license for this type of content.
+**Code version:** `r workflowr::extract_commit(".", 1)$sha1`
 
-[choose]: http://choosealicense.com/
-[cc]: https://creativecommons.org/choose/
+---
 
-How should others cite your work? Don't forget to update the file `CITATION` in
-the root of your Git repo.
+## Code
+
+The code is licensed under the [GPLv3][code-license].
+
+## Site
+
+The results shared on this site (text, figures, data) are licensed under the [Creative Commons Attribution 4.0 International License][site-license].
+This means you are free to include content from this site in your presentation, blog, or social media posts, as long as you cite us.
+
+## How to cite us
+
+If you use our code, data, figures or results, please cite us by including the following (or something similar):
+
+> From the Stephens Lab: http://jhsiao999.github.io/singleCell-workflow
+
+[code-license]: https://www.gnu.org/licenses/gpl-3.0.txt
+[site-license]: https://creativecommons.org/licenses/by/4.0/
+
