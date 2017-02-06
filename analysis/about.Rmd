@@ -5,4 +5,27 @@ output:
     toc: false
 ---
 
-single cell RNA-seq analysis workflow
+
+**Last updated:** `r Sys.Date()`
+
+**Code version:** `r system("git log -1 --format='%H'", intern = TRUE)`
+
+
+## Who 
+
+*  [Joyce Hsiao][hsiao] is a postdoctoral fellow in the Department of Human Genetics at the University of Chicago.
+
+*  [Yoav Gilad][gilad] is a Professor in the Department of Human Genetics at University of Chicago.
+
+*  [Matthew Stephens][stephens] is a Professor in the Department of Human Genetics and Department of Statistics at University of Chicago.
+
+[hsiao]: https://github.com/jhsiao999
+[stephens]: http://stephenslab.uchicago.edu/
+[gilad]: http://giladlab.uchicago.edu/
+
+
+## What
+
+
+
+## Why
