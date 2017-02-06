@@ -11,7 +11,7 @@
 
 
 
-<title>Home</title>
+<title>An example workflow: our recent technical pilot study</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -202,7 +202,7 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Home</h1>
+<h1 class="title toc-ignore">An example workflow: our recent technical pilot study</h1>
 
 </div>
 
@@ -210,10 +210,49 @@ $(document).ready(function () {
 <p><strong>Last updated:</strong> 2017-02-06</p>
 <p><strong>Code version:</strong> 42e0d4a</p>
 <hr />
-<p>The goal of this project is to build a reproducible workflow for our single cell RNA sequencing projects.</p>
+<p>Our previous workflow for generating count tables from raw sequence reads is summarized as below.</p>
+<div id="steps" class="section level2">
+<h2>Steps</h2>
+<ol style="list-style-type: decimal">
+<li>Generate index genomes for mapping sequence reads.</li>
+</ol>
 <ul>
-<li>[An example workflow from our recent pilot study][example-workflow.html]</li>
+<li>For both endogeneous and spike-in controls</li>
 </ul>
+<ol start="2" style="list-style-type: decimal">
+<li>Quality control and trimming:</li>
+</ol>
+<ul>
+<li>QC sequence reads</li>
+<li>Extract UMIs</li>
+<li>Trimming 3’ end of reads</li>
+</ul>
+<ol start="3" style="list-style-type: decimal">
+<li>Map reads to the index genomes.</li>
+</ol>
+<ul>
+<li>Mapping reads</li>
+<li>Sort, index and combine bam files</li>
+</ul>
+<ol start="4" style="list-style-type: decimal">
+<li>Generate gene-level read count and molecule-count.</li>
+</ol>
+<ul>
+<li>Count reads per gene</li>
+<li>Count molecules per gene</li>
+</ul>
+</div>
+<div id="tools" class="section level2">
+<h2>Tools</h2>
+<p>(Need to confirm the versions)</p>
+<ul>
+<li>umitools</li>
+<li>sickel version 1.33</li>
+<li>Subread version 1.5.0-p1</li>
+<li>samtools version 0.1.18-dev</li>
+<li>UMI-tools (versione0ade5d)</li>
+</ul>
+</div>
 
 <hr>
 <p>

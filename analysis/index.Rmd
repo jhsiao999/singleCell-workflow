@@ -5,11 +5,15 @@ output:
     toc: false
 ---
 
-The goal of this new template is to simplify the setup and maintenance of a research website.
-Specifically,
+**Last updated:** `r Sys.Date()`
 
-*  Easier to build and extend the website using the new tools in the [rmarkdown][] package and [latest RStudio release][rstudio]
-*  Easier to deploy the website with Git and GitHub by only using one branch
+**Code version:** `r workflowr::extract_commit(".", 1)$sha1`
 
-[rmarkdown]: http://rmarkdown.rstudio.com/rmarkdown_websites.htm
-[rstudio]: https://www.rstudio.com/products/rstudio/download/preview/
+---
+
+
+The goal of this project is to build a reproducible workflow for our single cell RNA sequencing projects. 
+
+
+* [An example workflow from our recent pilot study][example-workflow.html]
+

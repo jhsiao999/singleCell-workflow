@@ -1,5 +1,5 @@
 ---
-title: "Home"
+title: "An example workflow: our recent technical pilot study"
 output:
   html_document:
     toc: false
@@ -12,9 +12,10 @@ output:
 ---
 
 
-The goal of this project is to build a reproducible workflow for our single cell RNA sequencing projects. We will start from the workflow used in our recently published techical pilot, as outlined below.
+Our previous workflow for generating count tables from raw sequence reads is summarized as below. 
 
-## From fastQ to gene count tables
+
+## Steps
 
 1. Generate index genomes for mapping sequence reads.
 
@@ -37,5 +38,14 @@ The goal of this project is to build a reproducible workflow for our single cell
 * Count molecules per gene
 
 
+## Tools
+
+(Need to confirm the versions)
+
+* umitools
+* sickel version 1.33
+* Subread version 1.5.0-p1
+* samtools version 0.1.18-dev
+* UMI-tools (versione0ade5d)
 
 
