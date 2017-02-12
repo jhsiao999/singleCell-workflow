@@ -16,7 +16,8 @@ output:
 
     * [bioawk](https://github.com/lh3/bioawk) is an extention of `awk` with additional support for biological data.
     * [snakemake](https://snakemake.readthedocs.io/en/latest/)
-
+    * [md5Sum](https://www.lifewire.com/validate-md5-checksum-file-4037391): is used to verify that the files are not corrupted or otherwise unusable.
+    
 1. Generate index genomes for mapping sequence reads.
 
     * [Subread](http://subread.sourceforge.net/) 
