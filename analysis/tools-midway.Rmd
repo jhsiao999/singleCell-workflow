@@ -14,54 +14,34 @@ output:
 
 0. General purposes
 
-* `bioawk`: [bioawk](https://github.com/lh3/bioawk) is an extention of `awk` with additional support for biological data.
-* `snakemake`: [snakemake]()
-
+    * [bioawk](https://github.com/lh3/bioawk) is an extention of `awk` with additional support for biological data.
+    * [snakemake](https://snakemake.readthedocs.io/en/latest/)
 
 1. Generate index genomes for mapping sequence reads.
 
-`subread 1.9.4`: [Subread](http://subread.sourceforge.net/) 
-
-* Endogeneous
-* Worm 
-* Fly
+    * [Subread](http://subread.sourceforge.net/) 
+        * Endogeneous
+        * Worm 
+        * Fly
 
 
 2. Quality control and trimming:
 
-* QC sequence reads
-
-`fastqc 0.11.5`: [fastqc]()
-
-* Extract UMIs
-
-`umitools`: [umitools](https://github.com/brwnj/umitools/releases/tag/v2.1.1)
-
-
-* Trimming 3' end of reads
-
-`sickle`: [sickle](https://github.com/najoshi/sickle)
+    * [fastqc](http://www.bioinformatics.babraham.ac.uk/projects/fastqc/) for QC sequencing reads.
+    * [umitools](https://github.com/brwnj/umitools/releases/tag/v2.1.1) was used in our pilot project to extract UMIs.
+    * [UMI-tools](https://github.com/CGATOxford/UMI-tools) will be used in the current project for extracting UMIs.
+    * [sickle](https://github.com/najoshi/sickle) is used for trimming 3' end of reads.
 
 
 3. Map reads to the index genomes.
 
-* Mapping reads
-* Sort, index and combine bam files
+    * [Subjunc](http://subread.sourceforge.net/) is used to map sequencing reads. It is a part of the [Subread](http://subread.sourceforge.net/) suite of softwares. 
+    * [samtools](http://samtools.sourceforge.net/) is used to process bam files.
 
 4. Generate gene-level read count and molecule-count.
 
-* Count reads per gene
-* Count molecules per gene
+    * [featureCounts](http://subread.sourceforge.net/) is used to count the number of reads or molecules per gene. It is a part of the [Subread](http://subread.sourceforge.net/) suite of softwares. 
 
 
-## Tools
-
-(Need to confirm the versions)
-
-* umitools
-* sickel version 1.33
-* Subread version 1.5.0-p1
-* samtools version 0.1.18-dev
-* UMI-tools (versione0ade5d)
 
 
