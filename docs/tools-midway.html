@@ -207,65 +207,41 @@ $(document).ready(function () {
 </div>
 
 
-<p><strong>Last updated:</strong> 2017-02-06</p>
-<p><strong>Code version:</strong> db41274</p>
+<p><strong>Last updated:</strong> 2017-02-11</p>
+<p><strong>Code version:</strong> 94527e7</p>
 <hr />
 <ol start="0" style="list-style-type: decimal">
-<li>General purposes</li>
-</ol>
+<li><p>General purposes</p>
 <ul>
-<li><code>bioawk</code>: <a href="https://github.com/lh3/bioawk">bioawk</a> is an extention of <code>awk</code> with additional support for biological data.</li>
-<li><code>snakemake</code>: <a href="">snakemake</a></li>
-</ul>
-<ol style="list-style-type: decimal">
-<li>Generate index genomes for mapping sequence reads.</li>
-</ol>
-<p><code>subread 1.9.4</code>: <a href="http://subread.sourceforge.net/">Subread</a></p>
+<li><a href="https://github.com/lh3/bioawk">bioawk</a> is an extention of <code>awk</code> with additional support for biological data.</li>
+<li><a href="https://snakemake.readthedocs.io/en/latest/">snakemake</a></li>
+</ul></li>
+<li><p>Generate index genomes for mapping sequence reads.</p>
+<ul>
+<li><a href="http://subread.sourceforge.net/">Subread</a>
 <ul>
 <li>Endogeneous</li>
 <li>Worm</li>
 <li>Fly</li>
-</ul>
-<ol start="2" style="list-style-type: decimal">
-<li>Quality control and trimming:</li>
+</ul></li>
+</ul></li>
+<li><p>Quality control and trimming:</p>
+<ul>
+<li><a href="http://www.bioinformatics.babraham.ac.uk/projects/fastqc/">fastqc</a> for QC sequencing reads.</li>
+<li><a href="https://github.com/brwnj/umitools/releases/tag/v2.1.1">umitools</a> was used in our pilot project to extract UMIs.</li>
+<li><a href="https://github.com/CGATOxford/UMI-tools">UMI-tools</a> will be used in the current project for extracting UMIs.</li>
+<li><a href="https://github.com/najoshi/sickle">sickle</a> is used for trimming 3’ end of reads.</li>
+</ul></li>
+<li><p>Map reads to the index genomes.</p>
+<ul>
+<li><a href="http://subread.sourceforge.net/">Subjunc</a> is used to map sequencing reads. It is a part of the <a href="http://subread.sourceforge.net/">Subread</a> suite of softwares.</li>
+<li><a href="http://samtools.sourceforge.net/">samtools</a> is used to process bam files.</li>
+</ul></li>
+<li><p>Generate gene-level read count and molecule-count.</p>
+<ul>
+<li><a href="http://subread.sourceforge.net/">featureCounts</a> is used to count the number of reads or molecules per gene. It is a part of the <a href="http://subread.sourceforge.net/">Subread</a> suite of softwares.</li>
+</ul></li>
 </ol>
-<ul>
-<li>QC sequence reads</li>
-</ul>
-<p><code>fastqc 0.11.5</code>: <a href="">fastqc</a></p>
-<ul>
-<li>Extract UMIs</li>
-</ul>
-<p><code>umitools</code>: <a href="https://github.com/brwnj/umitools/releases/tag/v2.1.1">umitools</a></p>
-<ul>
-<li>Trimming 3’ end of reads</li>
-</ul>
-<p><code>sickle</code>: <a href="https://github.com/najoshi/sickle">sickle</a></p>
-<ol start="3" style="list-style-type: decimal">
-<li>Map reads to the index genomes.</li>
-</ol>
-<ul>
-<li>Mapping reads</li>
-<li>Sort, index and combine bam files</li>
-</ul>
-<ol start="4" style="list-style-type: decimal">
-<li>Generate gene-level read count and molecule-count.</li>
-</ol>
-<ul>
-<li>Count reads per gene</li>
-<li>Count molecules per gene</li>
-</ul>
-<div id="tools" class="section level2">
-<h2>Tools</h2>
-<p>(Need to confirm the versions)</p>
-<ul>
-<li>umitools</li>
-<li>sickel version 1.33</li>
-<li>Subread version 1.5.0-p1</li>
-<li>samtools version 0.1.18-dev</li>
-<li>UMI-tools (versione0ade5d)</li>
-</ul>
-</div>
 
 <hr>
 <p>
