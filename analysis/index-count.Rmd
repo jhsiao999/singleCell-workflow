@@ -1,0 +1,20 @@
+---
+title: "Workflow for processing count data"
+output:
+  html_document:
+    toc: false
+---
+
+**Last updated:** `r Sys.Date()`
+
+**Code version:** `r workflowr::extract_commit(".", 1)$sha1`
+
+---
+
+
+Building a step-by-step workflow for analyzing single cell RNA-seq count data.
+
+* [Example workflow from our recent pilot study](http://jdblischak.github.io/singleCellSeq/analysis/data-transformation.html).
+
+* [Related work](other-workflow-count.html)
+

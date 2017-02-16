@@ -1,0 +1,18 @@
+---
+title: "Related work"
+output:
+  html_document:
+    toc: false
+---
+
+**Last updated:** `r Sys.Date()`
+
+**Code version:** `r workflowr::extract_commit(".", 1)$sha1`
+
+---
+
+
+Please note that this list is not exhaustive and only includes the work relevant to our methods under development.
+
+
+

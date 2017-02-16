@@ -1,0 +1,18 @@
+---
+title: "Workflow for processing sequencing reads"
+output:
+  html_document:
+    toc: false
+---
+
+**Last updated:** `r Sys.Date()`
+
+**Code version:** `r workflowr::extract_commit(".", 1)$sha1`
+
+---
+
+
+* [Example workflow from our recent pilot study](example-workflow.html)
+* [List of tools](tools-midway.html)
+
+* [Related work](other-workflow-reads.html)

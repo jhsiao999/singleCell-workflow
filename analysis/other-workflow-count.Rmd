@@ -1,0 +1,54 @@
+---
+title: "Related work on the analysis of scRNA-seq count data"
+output:
+  html_document:
+    toc: false
+---
+
+**Last updated:** `r Sys.Date()`
+
+**Code version:** `r workflowr::extract_commit(".", 1)$sha1`
+
+---
+
+Please note that this list is not exhaustive and only includes the work relevant to our methods under development.
+
+
+#### List of workflows
+
+1. Aaron T. L. Lun, Davis J. McCarthy, John C. Marioni. A step-by-step workflow for low-level analysis of single-cell RNA-seq data [version 1; referees: 5 approved with reservations]. F1000Research 2016, 5: 2122. doi:10.12688/f1000research.9501.1
+
+2. Davis J. McCarthy, Kieran R. Campbell, Aaron T. L. Lun, Quin F. Willis. scater: pre-processing, quality control, normalisation and visualization of single-cell RNA-seq data in R. bioRxiv 069633; 
+doi:10.1101/069633
+
+3. Minzhe Guo, Hui Wang, Steven Potter, Jeffrey A. Whitsett, Yang Xu. SINCERA: A pipeline for single-cell RNA-seq profiling analysis. PLoS Computational Biology 2015;11(11):e1004575. doi:10.1371/journal.pcbi.1004575
+
+
+#### Filtering
+
+1. Tomislav Ilicic, Johng Kyoung Kim, Aleksandra A. Kolodziejczyk, Frederik Otzen Bagger, Davis James McCarthy, John C. Marioni, Sarah A. Teichmann. Classification of low quality cells from single-cell RNA-seq data. Genome Biology 2016; 17:29. doi:10.1186/s13059-016-0888-1
+
+
+#### Normalization and batch effect correction
+
+1. Aaron T. L. Lung, Bach Karsten, John C. Marioni. Pooling across cells to normalize single-cell RNA sequencing data with many zero counts. Genome Biology 2016; 17(1):75. doi:10.1186/s13059-016-0947-7
+
+2. Bo Ding, Lina Zheng, Yun Zhu, Nan Li, Haiyang Jia, Rizi Ai, Andre Wildberg, Wei Wang. Normalization and noise reduction for single cell RNA-seq experiments. Bioinformatics 2015;31(13):2225-27. doi:10.1093/bioinformatics/btv122
+
+
+#### Cell cycle phase
+
+1. Scialdone A, Natarajan KN, Saraiva LR, Proserpio V, Teichmann SA, Stegle O, Marioni JC, Buettner F. Computational assignment of cell-cycle stage from single-cell transcriptome data. Methods 2015; 85:54-61. doi:10.1016/j.ymeth.2015.06.021
+
+2. Martin Barron, Jun Li. Identifying and removing the cell-cycle effect from single-cell RNA-sequencing data. Scientific reports 2016;6:33892. doi:10.1038/srep33892
+
+#### Differential analysis
+
+1. Trung Nghia Vu, Quin F. Willis, Krishna R. Kalari, Nifang Niu, Liewei Wang, Mattias Rantalainen, Yudi Pawitan. Beta-poisson model for single-cell RNA-seq data analyses. Bioinformatics 2016;32(14):2128-35. doi:10.1093/bioinformatics/btw202
+
+2. Vallejos CA, Richarson S, Marioni JC. Beyond comparisons of means: understanding changes in gene expression at the single-cell level. Genome Biology 2016; 17(1):70. doi:10.1186/s13059-016-0930-3
+
+3. Finak G, McDavid A, Yajima M, Deng J, Gersuk V, Shalek AK, Slichter CK, Miller HW, McElrath MJ, Prlic M, Linsley PS. MAST: a flexible statistical framework for assessing transcriptional changes aand characterizing heterogeneity in single cell RNA sequencing data. Genome Biology 2015;1691:278.
+doi:10.1186/s13059-015-0844-5
+
+
